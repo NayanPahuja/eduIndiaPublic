@@ -23,14 +23,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 
-//val customFont = FontFamily(
-//    fonts = listOf(
-//        Font(
-//            resId = com.pahuja.eduindia.R.font.poppins_font,
-//            weight = FontWeight.Normal
-//        )
-//    )
-//)
 
 @Composable
 fun LoginScreen(){
