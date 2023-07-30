@@ -1,0 +1,198 @@
+{
+  "name": "email",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "kkIDzHgapzQM7nYVzSRINq",
+    "node": "32:2",
+    "version": "3905026451",
+    "component-id": "ccd678ba11702c4db1bcefa712f89d5267f1fc25"
+  },
+  "default": "Email",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "email_container"
+      },
+      {
+        "type": "text",
+        "id": "yourname@gmail.com"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "text",
+        "id": "Email Address"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 3"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      }
+    ],
+    "modes": {
+      "Email": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "email_container",
+              "yourname@gmail.com",
+              "Vector",
+              "Email Address"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "email_container",
+            "margin": {
+              "top": "28.0"
+            },
+            "border-radius": "8.0",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 3",
+              "Rectangle 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "yourname@gmail.com",
+            "margin": {
+              "left": "58.0",
+              "top": "45.0",
+              "right": "88.0",
+              "bottom": "17.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "yourname@gmail.com",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "14.329999923706055",
+            "line-height": "1.499999933449105",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "22.0",
+              "top": "48.0",
+              "right": "273.0",
+              "bottom": "20.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Email Address",
+            "margin": {
+              "right": "211.0",
+              "bottom": "62.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Email Address",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "14.329999923706055",
+            "line-height": "1.499999933449105",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 3",
+            "border-radius": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Email",
+      "size": {
+        "width": 314.0,
+        "height": 83.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
