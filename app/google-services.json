@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "660438114979",
+    "project_id": "eduindia-40e4d",
+    "storage_bucket": "eduindia-40e4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660438114979:android:cc8ad3748c99a947e69516",
+        "android_client_info": {
+          "package_name": "com.pahuja.eduindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660438114979-o0j01e1cd388tteglosd6nmetmb0pjip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlZALitTQ988J4qgtQVCiqolSU5GBBWNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660438114979-o0j01e1cd388tteglosd6nmetmb0pjip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

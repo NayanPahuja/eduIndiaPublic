@@ -23,7 +23,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-
+import com.pahuja.eduindia.email.Email
+import com.pahuja.eduindia.passwordbox.PasswordBox
+import com.pahuja.eduindia.signupbutton.SignUpButton
 val customFont = FontFamily(
     fonts = listOf(
         Font(
@@ -72,6 +74,28 @@ fun LoginScreen(){
                     modifier = Modifier
                 ) {
                     LoginText()
+                    Spacer(modifier = Modifier.height(45.dp))
+                    Email(modifier = Modifier
+                        .width(width = 314.dp)
+                        .height(83.dp)
+                        .align(alignment = Alignment.CenterHorizontally)
+
+                    )
+                    Spacer(modifier = Modifier.height(10.dp))
+                    PasswordBox(modifier = Modifier
+                        .width(width = 314.dp)
+                        .height(87.dp)
+                        .align(alignment = Alignment.CenterHorizontally)
+                    )
+                    Spacer(modifier = Modifier.height(30.dp))
+                    SignUpButton(
+                        modifier = Modifier
+                            .width(width = 314.dp)
+                            .height(50.dp)
+                            .align(alignment = Alignment.CenterHorizontally)
+                    )
+
+
 
                 }
             }
