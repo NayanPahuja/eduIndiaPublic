@@ -1,0 +1,104 @@
+{
+  "name": "sign_up_button",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "kkIDzHgapzQM7nYVzSRINq",
+    "node": "38:2",
+    "version": "3912539963",
+    "component-id": "48c8bd64939fef57c36179aefc9b92d370cfcdc8"
+  },
+  "default": "SignUp Button",
+  "documentation": "Sign Up",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 2"
+      },
+      {
+        "type": "text",
+        "id": "Sign up"
+      }
+    ],
+    "modes": {
+      "SignUp Button": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 2",
+              "Sign up"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 2",
+            "border-radius": "15.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_2.svg"
+          },
+          {
+            "id": "Sign up",
+            "margin": {
+              "left": "123.0",
+              "top": "11.0",
+              "right": "123.0",
+              "bottom": "12.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Sign up",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "17.918184280395508",
+            "line-height": "1.5000000532238256",
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "SignUp Button",
+      "size": {
+        "width": 314.0,
+        "height": 50.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
